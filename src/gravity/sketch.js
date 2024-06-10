@@ -80,12 +80,13 @@ function draw() {
 
   // draw detail box bottom-right
   fill(255)
-  rect(width - 100, height - 60, 100, 60)
+  rect(width - 130, height - 85, 130, 85)
   fill(0)
-  text("numSteps: " + numSteps, width - 90, height - 42)
-  text("regen: " + forcedRegenerate, width - 90, height - 22)
+  text("(↑↓) numSteps: " + numSteps, width - 120, height - 67)
+  text("(r) regen: " + forcedRegenerate, width - 120, height - 47)
+  text("(b) drawBoids: " + drawBoids, width - 120, height - 27)
   // fps
-  text("fps: " + frameRate().toFixed(2), width - 90, height - 2)
+  text("fps: " + frameRate().toFixed(2), width - 120, height - 7)
 
 }
 
