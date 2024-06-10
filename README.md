@@ -29,9 +29,10 @@ The simplest on any platform would likely be:
 ```console
 git clone https://github.com/sankalpgambhir/gravityca # or the latest link to this repo
 cd gravityca/
-python -m pip install http                            # get python HTTP if you don't have it
 python -m http.server                                 # actually start the HTTP server
 ```
+
+(or `python3`, depending on how your platform labels it)
 
 Navigate to [http://localhost:8000](http://localhost:8000) if that works. You
 should then be able to navigate to any of the folders and see the animations.
